@@ -67,6 +67,18 @@ img{
     display:flex;
     justify-content:space-evenly;
 
+
+}
+
+@media only screen and (max-width:500px){
+	.container{
+	margin: 0 auto  !important;
+	border-bottom: 1px solid #000  !important;
+	padding-bottom:50px  !important;
+	padding-top:50px  !important;
+ 
+	}
+	
 }
 
 .nav{
@@ -94,7 +106,7 @@ img{
 	font-size: 32px;
 	font-weight: 500; /*Medium*/
 	padding-bottom: 8px;
- =
+ 
 }
 .content{
 	padding-left:105px;
